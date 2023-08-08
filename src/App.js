@@ -1,9 +1,9 @@
-// import UseEffect from './Hooks/useEffect/useEffect';
-import CleanupuseEffect from './Hooks/useEffect/cleanupuseEffect';
-import OnceuseEffect from './Hooks/useEffect/onceuseEffect';
+// import Fetch from './Hooks/useEffect/fetch';
+import Usecontext from './Hooks/useContext/usecontext';
+import Usereducer from './Hooks/useReducer/usereducer';
 function App() {
   return (
-  <CleanupuseEffect/>
+  < Usereducer/>
   );
 }
 
