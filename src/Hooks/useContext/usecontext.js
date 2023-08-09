@@ -2,6 +2,7 @@
 //solves the issue of prop drilling
 import React from 'react';
 import Component from '../../Components/component';
+
 export const UserContext = React.createContext()
 export const ChanelContext = React.createContext()
 function Usecontext() {

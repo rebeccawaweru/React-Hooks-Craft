@@ -6,6 +6,8 @@
 //useReducer(reducer, initialState)
 //newState = reducer(currentState, action)
 //returns a pair of values: [newState, dispatch]
+//userReducer is used for local state management
+
 import React, {useReducer} from 'react';
 const initialState = 0
 const reducer = (state, action)=>{
