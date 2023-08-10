@@ -6,12 +6,16 @@
 // import Usereducer3 from './Hooks/useReducer/usereducer3';
 // import Fetchreducer from './Hooks/useReducer/fetchreducer';
 // import Usereducercontext from './Hooks/useContext/usereducercontext';
-import Usecallback from './Hooks/useCallback/usecallback';
-import Usememo from './Hooks/useMemo/usememo';
+// import Usecallback from './Hooks/useCallback/usecallback';
+// import Usememo from './Hooks/useMemo/usememo';
+// // import Useref from './Hooks/useRef/useref';
+// import ClassTimer from './Hooks/useRef/classtimer';
+import Doctitle from './Hooks/customHooks/doctitle';
+import UserForm from './Hooks/customHooks/form';
 function App() {
   return (
     <div>
-    <Usememo/>
+    <UserForm/>
     </div>
 
   );
@@ -26,4 +30,5 @@ export default App;
 //hooks help reuse stateful logic
 //hooks are in react version 16.8 or higher
 //hooks help organize the logic inside a component into reusable isolated units
+//usedebug, uselayout, use imperative handle - hooks
 
