@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# custom ( if you had already committed the folder do: git rm -r --cached src/Interview/)
+src/Interview/
+
 # testing
 /coverage
 
